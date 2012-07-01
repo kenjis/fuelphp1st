@@ -1,0 +1,34 @@
+---
+- 
+  id: 1
+  name: 小野小町
+  email: komachi@example.jp
+  comment: |
+    花の色は 移りにけりな いたづらに
+    我が身世にふる ながめせし間に
+  ip_address: 192.168.1.1
+  user_agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:11.0) Gecko/20100101 Firefox/11.0
+  created_at: 1333524234
+  updated_at: 1333524234
+- 
+  id: 2
+  name: 文屋康秀
+  email: yasuhide@example.jp
+  comment: |
+    吹くからに 秋の草木の しをるれば
+    むべ山風を 嵐といふらむ
+  ip_address: 10.10.10.10
+  user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:9.0.1) Gecko/20100101 Firefox/9.0.1
+  created_at: 1333534305
+  updated_at: 1333534305
+- 
+  id: 3
+  name: 清原元輔
+  email: motosuke@example.jp
+  comment: |
+    ちぎりきな かたみに袖を しぼりつつ
+    末の松山 浪こさじとは
+  ip_address: 172.16.0.1
+  user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.75 Safari/535.7
+  created_at: 1333535267
+  updated_at: 1333535267
