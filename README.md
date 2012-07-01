@@ -12,6 +12,11 @@
 
 * http://d.hatena.ne.jp/Kenji_s/20120628/fuelphp1st
 
+### Twitter
+
+公式アカウント: [@fuelphp1st](https://twitter.com/fuelphp1st)
+ハッシュタグ: [#fuelphp1st](http://twitter.com/search?q=%23fuelphp1st)
+
 ## 正誤情報
 
 現在、正誤情報はありません。
