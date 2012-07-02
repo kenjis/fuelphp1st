@@ -10,7 +10,7 @@
 
 『はじめてのフレームワークとしての FuelPHP』の詳細は、以下の URL を参照願います。
 
-* http://d.hatena.ne.jp/Kenji_s/20120628/fuelphp1st
+* http://tatsu-zine.com/books/fuelphp1st
 
 ### Twitter
 
