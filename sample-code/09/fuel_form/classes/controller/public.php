@@ -15,7 +15,7 @@ class Controller_Public extends Controller_Template
 	public function before()
 	{
 		parent::before();
-		$this->response = new Response();
+		$this->response = Response::forge();
 		$this->response->set_header('X-FRAME-OPTIONS', 'SAMEORIGIN');
 	}
 	
