@@ -15,7 +15,7 @@ class Controller_SampleAfter extends Controller
 	public function after($response)
 	{
 		$response .= __METHOD__ . 'が実行されました。<br />';
-		return $response;
+		return parent::after($response);
 	}
 	
 	public function action_index()
