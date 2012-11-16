@@ -19,15 +19,15 @@
 
 ## 正誤情報
 
-本書の誤りについては、[正誤情報](https://github.com/kenjis/fuelphp1st/wiki/%E3%80%8E%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE-FuelPHP%E3%80%8F%E6%AD%A3%E8%AA%A4%E6%83%85%E5%A0%B1) を参照願います。
+本書の誤りについては、[正誤情報](https://github.com/kenjis/fuelphp1st/blob/master/ERRATA.md) を参照願います。
 
 ## 追加情報
 
-本書の執筆時以降のアップデート情報は、[追加情報](https://github.com/kenjis/fuelphp1st/wiki/%E3%80%8E%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE-FuelPHP%E3%80%8F%E8%BF%BD%E5%8A%A0%E6%83%85%E5%A0%B1) を参照願います。
+本書の執筆時以降のアップデート情報は、[追加情報](https://github.com/kenjis/fuelphp1st/blob/master/UPDATE.md) を参照願います。
 
 ## 参考情報
 
-本書の読者に参考となるかも知れない情報については、[参考情報](https://github.com/kenjis/fuelphp1st/wiki/%E3%80%8E%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE-FuelPHP%E3%80%8F%E5%8F%82%E8%80%83%E6%83%85%E5%A0%B1) を参照願います。
+本書の読者に参考となるかも知れない情報については、[参考情報](https://github.com/kenjis/fuelphp1st/blob/master/FYI.md) を参照願います。
 
 ## 読者限定の非公開メーリングリスト
 
