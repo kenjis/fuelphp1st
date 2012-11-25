@@ -27,6 +27,16 @@
 
 * 2012/08/19 XAMPP for Linux 1.8.0 (Apache 2.4.2, MySQL 5.5.25a, PHP 5.4.4) & FuelPHP 1.3 で第10章のコンタクトフォームのテストが通ることを確認しました。
 
+## 第1章 FuelPHP とは?
+<a name="chap01"></a>
+
+### 1.6 FuelPHP のコミュニティ
+
+(PDF P.10)
+
+#### FuelPHP まとめ Wiki
+* 2012/11/25 「FuelPHP まとめ Wiki」の URL が http://wiki.fuelphp1st.com/wiki/ に変更になっています。
+
 ## 第2章 開発環境の構築
 <a name="chap02"></a>
 
@@ -96,7 +106,7 @@ $ sudo /opt/lampp/lampp security
 
 * 2012/11/11 FuelPHP 1.4 より、デフォルトの設定は fuel/core/config/config.php に移動され、fuel/app/config/config.php はデフォルトでは空の配列を返すように変更されています。fuel/app/config/config.php には、変更する設定項目のみを追加します。
 
-## 第 4 章 FuelPHP の MVC
+## 第4章 FuelPHP の MVC
 <a name="chap04"></a>
 
 ### 4.2.1 コントローラの規約
@@ -119,7 +129,16 @@ $ sudo /opt/lampp/lampp security
 
 * 2012/10/07 FuelPHP 1.3 では次の変更が必要になりました。https://github.com/kenjis/fuelphp1st/commit/264071ef0234f05ff4cf869ce5d316376c3b8103
 
-## 第6章　FuelPHP の拡張
+## 第5章 FuelPHP の機能概要
+<a name="chap05"></a>
+
+### 5.5.4 HTTP 関連のクラス
+
+(PDF P.137)
+
+* 2012/11/15 FuelPHP 1.4 で Pagination クラスが書き直され、API が変更されています。1.3 以前のコードは少々変更が必要です。http://fuelphp.com/docs/classes/pagination.html 参照。
+
+## 第6章 FuelPHP の拡張
 <a name="chap06"></a>
 
 ### 6.4 イベントによる拡張
@@ -128,7 +147,7 @@ $ sudo /opt/lampp/lampp security
 
 * 2012/07/05 FuelPHP 1.3 ではシステムで定義されているイベントが大幅に増えます。http://press.nekoget.com/fuelphp_doc/classes/event.html
 
-## 第7章　FuelPHP でのユニットテスト
+## 第7章 FuelPHP でのユニットテスト
 <a name="chap07"></a>
 
 ### 7.3.1 Core クラスのユニットテスト
@@ -139,7 +158,7 @@ $ sudo /opt/lampp/lampp security
 * 2012/06/29 FuelPHP 1.2.1 まで含まれていた不適切なテストは FuelPHP 1.3 で削除されました。https://github.com/fuel/core/issues/971
 
 
-## 第9章　コンタクトフォームの改良
+## 第9章 コンタクトフォームの改良
 <a name="chap09"></a>
 
 ### 9.2.1 クリックジャック対策
