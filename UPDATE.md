@@ -83,15 +83,24 @@
 
 (PDF P.55)
 
-#### 手順 5 の後に「XAMPPのセキュリティ設定」を追加
+#### 手順 5 の後に「XAMPPの設定ファイルの修正」を追加
 
-XAMPP 1.8.0 以降では、XAMPP を起動する前に以下のコマンドを実行し、各サーバにパスワードを設定してください。
+XAMPP 1.8.0 以降では、「/opt/lampp/etc/extra/httpd-xampp.conf」を次のように変更してください。phpMyAdmin にパスワードを設定せずにアクセスできるようにするものです。
 
 ```
-$ sudo /opt/lampp/lampp security
+--- a/extra/httpd-xampp.conf
++++ b/extra/httpd-xampp.conf
+@@ -57,9 +57,7 @@ XBitHack on
+ # New XAMPP security concept
+ #
+ <LocationMatch "^/(?i:(?:xampp|security|licenses|phpmyadmin|webalizer|server-status|server-info))">
+-	Order deny,allow
+-	Deny from all
+-	Allow from ::1 127.0.0.0/8 \
++	Require ip ::1 127.0.0.0/8 \
+ 		fc00::/7 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 \
+ 		fe80::/10 169.254.0.0/16
 ```
-
-ブラウザで XAMPP のページにアクセスすると、Basic 認証がかかっていますので、ユーザ名「lampp」と設定したパスワードを入力します。phpMyAdmin では、ユーザ名「root」と設定したパスワードでログインします。
 
 ### 2.4.2 Eclipse のインストール
 
