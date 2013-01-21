@@ -3,6 +3,13 @@
 ここでは、本書の執筆時以降のアップデート情報を提供します。
 
 ## FuelPHP のアップデートについて
+### FuelPHP 1.5 について
+<a name="fuelphp-1.5"></a>
+
+* 2013/01/21 FuelPHP 1.5 がリリースされています。本書の手順どおりに FuelPHP をインストールすると 1.5 がインストールされます。
+* 2013/01/21 FuelPHP 1.4 を本書の手順でインストール済みの場合のアップデート方法は [FuelPHP 1.4 から 1.5 へのアップデート方法](https://github.com/kenjis/fuelphp1st/blob/master/UPDATE_FUELPHP_1.5.md) を参照してください。
+* 2013/01/21 FuelPHP 1.5 (Apache 2.4.3, MySQL 5.5.27, PHP 5.4.7, PHPUnit 3.7.13) で第10章のコンタクトフォームのテストが通ることを確認しました。
+
 ### FuelPHP 1.4 について
 <a name="fuelphp-1.4"></a>
 
@@ -109,11 +116,27 @@ XAMPP 1.8.0 以降では、「/opt/lampp/etc/extra/httpd-xampp.conf」を次の�
 * 2012/10/12 Eclipse 4.2.1 がリリースされています。
 * 2012/07/05 Eclipse 3.8 および 4.2 がリリースされています。3.7.2 は http://archive.eclipse.org/eclipse/downloads/ よりダウンロード可能です。3.8 は http://download.eclipse.org/eclipse/downloads/drops/R-3.8-201206081200/ よりダウンロード可能です。
 
+### 2.4.6 PHPUnit のインストール
+
+(PDF P.60)
+
+* 2013/01/21 本書の手順どおり PHPUnit をインストールすると 3.7.13 がインストールされます。
+
 ### 2.5.1 config.php の変更
 
 (PDF P.65)
 
 * 2012/11/11 FuelPHP 1.4 より、デフォルトの設定は fuel/core/config/config.php に移動され、fuel/app/config/config.php はデフォルトでは空の配列を返すように変更されています。fuel/app/config/config.php には、変更する設定項目のみを追加します。
+
+(PDF P.67)
+
+* 2013/01/21 FuelPHP 1.5 より、Log クラスがパッケージ化されたため、always_load.package に「log」を追加してください。
+
+```
+		'packages'  => array(
+			'log',
+		),
+```
 
 ## 第4章 FuelPHP の MVC
 <a name="chap04"></a>
@@ -141,11 +164,23 @@ XAMPP 1.8.0 以降では、「/opt/lampp/etc/extra/httpd-xampp.conf」を次の�
 ## 第5章 FuelPHP の機能概要
 <a name="chap05"></a>
 
+### 5.5.1 コアとなるクラス
+
+(PDF P.136)
+
+* 2013/01/21 Log クラスは、FuelPHP 1.5 からパッケージ化されました。
+
 ### 5.5.4 HTTP 関連のクラス
 
 (PDF P.137)
 
 * 2012/11/15 FuelPHP 1.4 で Pagination クラスが書き直され、API が変更されています。1.3 以前のコードは少々変更が必要です。http://fuelphp.com/docs/classes/pagination.html 参照。
+
+## 5.6 パッケージ
+
+(PDF P.138)
+
+* 2013/01/21 FuelPHP 1.5 から Core クラスの Log クラスがパッケージ化され追加されました。Log パッケージは Monolog を使用しています。
 
 ## 第6章 FuelPHP の拡張
 <a name="chap06"></a>
