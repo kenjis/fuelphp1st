@@ -6,6 +6,7 @@
 ### FuelPHP 1.5 について
 <a name="fuelphp-1.5"></a>
 
+* 2013/02/09 FuelPHP 1.5.2 (Apache 2.4.3, MySQL 5.5.27, PHP 5.4.7, PHPUnit 3.7.13) で第10章のコンタクトフォームのテストが通ることを確認しました。
 * 2013/01/21 FuelPHP 1.5 がリリースされています。本書の手順どおりに FuelPHP をインストールすると 1.5 がインストールされます。
 * 2013/01/21 FuelPHP 1.4 を本書の手順でインストール済みの場合のアップデート方法は [FuelPHP 1.4 から 1.5 へのアップデート方法](https://github.com/kenjis/fuelphp1st/blob/master/UPDATE_FUELPHP_1.5.md) を参照してください。
 * 2013/01/21 FuelPHP 1.5 (Apache 2.4.3, MySQL 5.5.27, PHP 5.4.7, PHPUnit 3.7.13) で第10章のコンタクトフォームのテストが通ることを確認しました。
