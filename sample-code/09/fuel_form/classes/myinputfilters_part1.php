@@ -30,6 +30,7 @@ class MyInputFilters
 		else
 		{
 			// エラーの場合はログに記録
+			Package::load('log');
 			Log::error(
 				'Invalid character encoding: ' . Input::uri() . ' ' . 
 				urlencode($value) . ' ' .

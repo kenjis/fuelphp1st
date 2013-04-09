@@ -63,6 +63,7 @@ class MyInputFilters
 	// エラーをログに記録
 	public static function log_error($msg, $value)
 	{
+		Package::load('log');
 		Log::error(
 			$msg . ': ' . Input::uri() . ' ' . urlencode($value) . ' ' .
 			Input::ip() . ' "' . Input::user_agent() . '"'
