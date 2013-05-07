@@ -4,7 +4,7 @@
 
 ## 『はじめてのフレームワークとしての FuelPHP』について
 
-『はじめてのフレームワークとしての FuelPHP』は、最新の PHP 5.3 フレームワークである FuelPHP のバージョン 1.2 に関する日本初の入門書です (FuelPHP 1.3～1.5 については [追加情報](https://github.com/kenjis/fuelphp1st/blob/master/UPDATE.md) をご覧願います)。
+『はじめてのフレームワークとしての FuelPHP』は、最新の PHP 5.3 フレームワークである FuelPHP のバージョン 1.2 に関する日本初の入門書です (FuelPHP 1.3～1.6 については [追加情報](https://github.com/kenjis/fuelphp1st/blob/master/UPDATE.md) をご覧願います)。
 
 フレームワークを使ったことのない PHP ユーザの方が、FuelPHP を使いこなせるようになるための入門書です。
 

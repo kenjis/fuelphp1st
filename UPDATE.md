@@ -4,7 +4,7 @@
 
 ## FuelPHP のアップデートについて
 ### FuelPHP 1.6 について
-<a name="fuelphp-1.6"></a>
+<a name="fuelphp-1.6"></a>L
 
 * 2013/05/07 FuelPHP 1.6 がリリースされています。本書の手順どおりに FuelPHP をインストールすると 1.6 がインストールされます。このバージョンから Composer が正式に導入されたため、本書のインストール手順の後に、「php composer.phar update」コマンドを実行する必要があります。
 * 2013/05/07 FuelPHP 1.5 を本書の手順でインストール済みの場合のアップデート方法は [FuelPHP 1.5 から 1.6 へのアップデート方法](https://github.com/kenjis/fuelphp1st/blob/master/UPDATE_FUELPHP_1.6.md) を参照してください。
@@ -139,7 +139,8 @@ XAMPP 1.8.0 以降では、「/opt/lampp/etc/extra/httpd-xampp.conf」を次の�
 
 (PDF P.67)
 
-* 2013/01/21 FuelPHP 1.5 より、Log クラスがパッケージ化されたため、always_load.package に「log」を追加してください。
+* 2013/05/07 FuelPHP 1.6 で Log パッケージは廃止されました。Log クラスは Core に復活しましたので、1.4 以前と同じように設定なしで利用できます。
+* 2013/01/21 FuelPHP 1.5 では、Log クラスがパッケージ化されたため、always_load.package に「log」を追加してください。
 
 ```
 		'packages'  => array(
@@ -177,6 +178,7 @@ XAMPP 1.8.0 以降では、「/opt/lampp/etc/extra/httpd-xampp.conf」を次の�
 
 (PDF P.136)
 
+* 2013/05/07 Log クラスは、FuelPHP 1.6 で Core に復活しました。1.5 での Log パッケージは廃止されました。1.6 からは Composer の Monolog を Log クラスが使う実装になっています。
 * 2013/01/21 Log クラスは、FuelPHP 1.5 からパッケージ化されました。
 
 ### 5.5.4 HTTP 関連のクラス
@@ -189,6 +191,7 @@ XAMPP 1.8.0 以降では、「/opt/lampp/etc/extra/httpd-xampp.conf」を次の�
 
 (PDF P.138)
 
+* 2013/05/07 FuelPHP 1.6 で Log パッケージは廃止されました。
 * 2013/01/21 FuelPHP 1.5 から Core クラスの Log クラスがパッケージ化され追加されました。Log パッケージは Monolog を使用しています。
 
 ## 第6章 FuelPHP の拡張
