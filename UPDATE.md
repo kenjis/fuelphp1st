@@ -4,7 +4,7 @@
 
 ## FuelPHP のアップデートについて
 ### FuelPHP 1.6 について
-<a name="fuelphp-1.6"></a>L
+<a name="fuelphp-1.6"></a>
 
 * 2013/05/07 FuelPHP 1.6 がリリースされています。本書の手順どおりに FuelPHP をインストールすると 1.6 がインストールされます。このバージョンから Composer が正式に導入されたため、本書のインストール手順の後に、「php composer.phar update」コマンドを実行する必要があります。
 * 2013/05/07 FuelPHP 1.5 を本書の手順でインストール済みの場合のアップデート方法は [FuelPHP 1.5 から 1.6 へのアップデート方法](https://github.com/kenjis/fuelphp1st/blob/master/UPDATE_FUELPHP_1.6.md) を参照してください。
