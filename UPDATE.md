@@ -77,6 +77,19 @@
 #### 手順 2 PDT のインストール
 * 2012/07/30 Eclipse 3.8 の場合は、「Juno - http://download.eclipse.org/releases/juno 」を選択します。
 
+### 2.2.8 FuelPHP のインストール
+
+#### 手順 1 FuelPHP のダウンロード
+
+(PDF P.36)
+
+* 2013/05/19 FuelPHP 1.6 から Composer が正式採用され、一部のライブラリが Composer で管理されるようになりました。FuelPHP のソースコードをダウンロードした後に、以下のコマンドの実行し、必要なライブラリを Composer 経由でインストールします。
+
+```
+$ cd fuelphp
+$ php composer.phar update
+```
+
 ### 2.3.1 MAMP のインストール
 
 (PDF P.39)
@@ -89,6 +102,19 @@
 
 * 2012/10/12 Eclipse 4.2.1 がリリースされています。
 * 2012/07/05 Eclipse 3.8 および 4.2 がリリースされています。3.7.2 は http://archive.eclipse.org/eclipse/downloads/ よりダウンロード可能です。3.8 は http://download.eclipse.org/eclipse/downloads/drops/R-3.8-201206081200/ よりダウンロード可能です。
+
+### 2.3.8 FuelPHP のインストール
+
+#### 手順 2 FuelPHP のダウンロード
+
+(PDF P.50)
+
+* 2013/05/19 FuelPHP 1.6 から Composer が正式採用され、一部のライブラリが Composer で管理されるようになりました。FuelPHP のソースコードをダウンロードした後に、以下のコマンドの実行し、必要なライブラリを Composer 経由でインストールします。
+
+```
+$ cd fuelphp
+$ php composer.phar update
+```
 
 ### 2.4.1 XAMPP for Linux のインストール
 
@@ -130,6 +156,19 @@ XAMPP 1.8.0 以降では、「/opt/lampp/etc/extra/httpd-xampp.conf」を次の�
 (PDF P.60)
 
 * 2013/01/21 本書の手順どおり PHPUnit をインストールすると 3.7.13 がインストールされます。
+
+### 2.4.8 FuelPHP のインストール
+
+#### 手順 2 FuelPHP のダウンロード
+
+(PDF P.63)
+
+* 2013/05/19 FuelPHP 1.6 から Composer が正式採用され、一部のライブラリが Composer で管理されるようになりました。FuelPHP のソースコードをダウンロードした後に、以下のコマンドの実行し、必要なライブラリを Composer 経由でインストールします。
+
+```
+$ cd fuelphp
+$ php composer.phar update
+```
 
 ### 2.5.1 config.php の変更
 
