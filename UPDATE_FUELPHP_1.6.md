@@ -84,3 +84,13 @@ fuelphp@lubuntu1204:~/work/fuelphp$ php composer.phar update
 ### config.php の変更
 
 always_load.packages の log を削除します。
+
+## /usr/bin/oil コマンドのアップデート
+
+GNU/Linux と Mac OS X では、oil コマンドが使えますので、アップデートします。
+
+```
+$ curl get.fuelphp.com/oil | sh
+```
+
+このアップデートにより、oil create コマンド実行時に composer update が自動的に実行されるようになります。

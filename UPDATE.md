@@ -6,7 +6,7 @@
 ### FuelPHP 1.6 について
 <a name="fuelphp-1.6"></a>
 
-* 2013/05/07 FuelPHP 1.6 がリリースされています。本書の手順どおりに FuelPHP をインストールすると 1.6 がインストールされます。このバージョンから Composer が正式に導入されたため、本書のインストール手順の後に、「php composer.phar update」コマンドを実行する必要があります。
+* 2013/05/29 FuelPHP 1.6 がリリースされています。本書の手順どおりに FuelPHP をインストールすると 1.6 がインストールされます。このバージョンから Composer が正式に導入されたため、GNU/Linux および Mac OS X 環境では /usr/bin/oil コマンドを再インストールして更新する必要があります。また、Windows 環境では、本書のインストール手順の後に、「php composer.phar update」コマンドを実行する必要があります。
 * 2013/05/07 FuelPHP 1.5 を本書の手順でインストール済みの場合のアップデート方法は [FuelPHP 1.5 から 1.6 へのアップデート方法](https://github.com/kenjis/fuelphp1st/blob/master/UPDATE_FUELPHP_1.6.md) を参照してください。
 * 2013/05/07 FuelPHP 1.6 (Apache 2.4.3, MySQL 5.5.27, PHP 5.4.7, PHPUnit 3.7.13) で第10章のコンタクトフォームのテストが通ることを確認しました。
 
@@ -109,12 +109,7 @@ $ php composer.phar update
 
 (PDF P.50)
 
-* 2013/05/19 FuelPHP 1.6 から Composer が正式採用され、一部のライブラリが Composer で管理されるようになりました。FuelPHP のソースコードをダウンロードした後に、以下のコマンドの実行し、必要なライブラリを Composer 経由でインストールします。
-
-```
-$ cd fuelphp
-$ php composer.phar update
-```
+* 2013/05/29 FuelPHP 1.6 から Composer が正式採用され、一部のライブラリが Composer で管理されるようになりました。FuelPHP 1.6 リリース以前に /usr/bin/oil コマンドをインストールしている場合は、再度インストールし直して更新する必要があります。
 
 ### 2.4.1 XAMPP for Linux のインストール
 
@@ -163,12 +158,7 @@ XAMPP 1.8.0 以降では、「/opt/lampp/etc/extra/httpd-xampp.conf」を次の�
 
 (PDF P.63)
 
-* 2013/05/19 FuelPHP 1.6 から Composer が正式採用され、一部のライブラリが Composer で管理されるようになりました。FuelPHP のソースコードをダウンロードした後に、以下のコマンドの実行し、必要なライブラリを Composer 経由でインストールします。
-
-```
-$ cd fuelphp
-$ php composer.phar update
-```
+* 2013/05/29 FuelPHP 1.6 から Composer が正式採用され、一部のライブラリが Composer で管理されるようになりました。FuelPHP 1.6 リリース以前に /usr/bin/oil コマンドをインストールしている場合は、再度インストールし直して更新する必要があります。
 
 ### 2.5.1 config.php の変更
 
