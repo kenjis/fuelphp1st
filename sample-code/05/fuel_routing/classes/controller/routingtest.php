@@ -12,8 +12,11 @@
 
 class Controller_RoutingTest extends Controller
 {
-	public function router()
+	public function router($resource, $arguments)
 	{
+		// Debug::dump()の表示をはじめから開く
+		Debug::$js_toggle_open = true;
+		
 		// ルート情報を表示
 		Debug::dump($this->request->route);
 		// 名前付きパラメータの一覧を表示
