@@ -203,6 +203,12 @@ XAMPP 1.8.0 以降では、「/opt/lampp/etc/extra/httpd-xampp.conf」を次の�
 ## 第5章 FuelPHP の機能概要
 <a name="chap05"></a>
 
+### 5.3.3 正規表現によるルーティング
+
+(PDF P.124)
+
+* 2013/06/13 router() メソッドは FuelPHP 1.6 から引数が必須になりました。リスト 5.2 を次のように変更してください。https://github.com/kenjis/fuelphp1st/commit/ff5a2c62a4ff6600615bb16cf15d13d2be398b7e
+
 ### 5.5.1 コアとなるクラス
 
 (PDF P.136)
