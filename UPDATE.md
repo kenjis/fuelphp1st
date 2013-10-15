@@ -3,6 +3,13 @@
 ここでは、本書の執筆時以降のアップデート情報を提供します。
 
 ## FuelPHP のアップデートについて
+### FuelPHP 1.7 について
+<a name="fuelphp-1.7"></a>
+
+* 2013/10/15 FuelPHP 1.7 がリリースされています。本書の手順どおりに FuelPHP をインストールすると 1.7 がインストールされます。
+* 2013/10/15 FuelPHP 1.6 を本書の手順でインストール済みの場合のアップデート方法は [FuelPHP 1.6 から 1.7 へのアップデート方法](https://github.com/kenjis/fuelphp1st/blob/master/UPDATE_FUELPHP_1.7.md) を参照してください。
+* 2013/10/15 FuelPHP 1.7 (Apache 2.4.3, MySQL 5.5.27, PHP 5.4.7, PHPUnit 3.7.13) で第10章のコンタクトフォームのテストが通ることを確認しました。
+
 ### FuelPHP 1.6 について
 <a name="fuelphp-1.6"></a>
 
