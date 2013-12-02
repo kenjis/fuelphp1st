@@ -3,6 +3,13 @@
 ここでは、本書の執筆時以降のアップデート情報を提供します。
 
 ## FuelPHP のアップデートについて
+### FuelPHP 1.7.1 について
+<a name="fuelphp-1.7.1"></a>
+
+* 2013/12/02 FuelPHP 1.7.1 がリリースされています。本書の手順どおりに FuelPHP をインストールすると 1.7.1 がインストールされます。
+* 2013/12/02 FuelPHP 1.7 を本書の手順でインストール済みの場合のアップデート方法は [FuelPHP 1.7 から 1.7.1 へのアップデート方法](https://github.com/kenjis/fuelphp1st/blob/master/UPDATE_FUELPHP_1.7.1.md) を参照してください。
+* 2013/12/02 FuelPHP 1.7.1 (Apache 2.4.3, MySQL 5.5.27, PHP 5.4.7, PHPUnit 3.7.13) で第10章のコンタクトフォームのテストが通ることを確認しました。
+
 ### FuelPHP 1.7 について
 <a name="fuelphp-1.7"></a>
 
@@ -207,6 +214,12 @@ XAMPP 1.8.0 以降では、「/opt/lampp/etc/extra/httpd-xampp.conf」を次の�
 
 * 2012/10/07 FuelPHP 1.3 では次の変更が必要になりました。https://github.com/kenjis/fuelphp1st/commit/264071ef0234f05ff4cf869ce5d316376c3b8103
 
+### 4.2.6 Rest コントローラ
+
+(PDF P.102)
+
+* 2013/12/02 リスト 4.7: Weather コントローラ (fuel/app/classes/controller/weather.php) にはXSS脆弱性がありました。この脆弱性は、FuelPHP 1.7.1 で修正されています。
+
 ## 第5章 FuelPHP の機能概要
 <a name="chap05"></a>
 
@@ -268,4 +281,7 @@ XAMPP 1.8.0 以降では、「/opt/lampp/etc/extra/httpd-xampp.conf」を次の�
 ## その他
 <a name="others"></a>
 
+### Twitter Bootstrap
+
+* 2013/10/16 FuelPHP 1.7 から、含まれる Twitter Bootstrap のバージョンが 3.0 にアップグレードされています。
 * 2012/07/08 FuelPHP 1.2.1 に含まれる Twitter Bootstrap のバージョンは 1.4 ですが、1.2/develop で 2.0.3 にバージョンアップされています。https://github.com/fuel/fuel/commit/00328996d6a4cb1bcd3cbae302516b17af0cd6f3 この変更は FuelPHP 1.2.2 に含まれる予定です。なお、1.3/develop ではすでに以前から 2.0.3 にバージョンアップされています。https://github.com/fuel/fuel/commit/b0136eba1da6e0f5ce17749c6e367a6a03e585ce
